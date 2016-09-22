@@ -1,18 +1,17 @@
 function changeTextFunc() {
-
-		document.getElementById("changeText").innerHTML = "Changed.";
+    document.getElementById("changeText").innerHTML = "Changed.";
 }
 function output() {
-	window.alert(5+6);
+	window.alert(5 + 6);
 	//document.write(5+6); //Only used for testing
 }
 function leftClick() {
 
-	document.getElementById('img1').src='img/1.jpg';
+	document.getElementById('img1').src = 'img/1.jpg';
 }
 function rightClick() {
 
-	document.getElementById('img1').src='img/2.jpg';
+	document.getElementById('img1').src = 'img/2.jpg';
 }
 function dateFunc() {
 
@@ -24,14 +23,14 @@ function fontFunc() {
 }
 function hideFunc() {
 
-	document.getElementById('hide').style.display='none';
+	document.getElementById('hide').style.display = 'none';
 }
 function usingInnerHTML() {
 
 	document.getElementById("usingInnerHTML").innerHTML = "Added on " + 5 + 6;
 }
 //Useful for console logs
-console.log( 5 + 6 );
+console.log(5 + 6 );
 
 
 function variables() {
@@ -47,16 +46,20 @@ function onChange() {
 
 }
 function onClick() {
+    //document.getElementById("popupBox").innerHTML =
+    window.alert("You pressed the down key");
 
 }
 
 function onMouseOver() {
+    document.getElementById("").innerHTML = "Changed the text on mouse over";
 
 }
 function onMouseOut() {
 
 }
 function onKeyDown() {
+    
 	
 }
 function onLoad() {
